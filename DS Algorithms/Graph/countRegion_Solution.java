@@ -2,7 +2,7 @@ package Graph;
 
 import java.util.Scanner;
 
-public class Solution {
+public class CountRegion_Solution {
 	
 	// These arrays are used to get row and column numbers of 8 neighbors of a given cell
     public static final int[] rowNbr = new int[] {-1, -1, -1,  0, 0,  1, 1, 1};
