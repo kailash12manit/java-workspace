@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Development_of_Self_driving_Algorithm2 {
+public class Development_of_Self_driving_Algorithm {
 	static int H;//Height
 	static int W;//Width
 	static char matrix[][] = new char[500][500];//map
@@ -35,7 +35,7 @@ public class Development_of_Self_driving_Algorithm2 {
 		}
 	}
 	public static void main(String[] args) {
-		Development_of_Self_driving_Algorithm2 m = new Development_of_Self_driving_Algorithm2();
+		Development_of_Self_driving_Algorithm m = new Development_of_Self_driving_Algorithm();
 		m.input_data();
 		
 		int knightPos[]= {0,0};
